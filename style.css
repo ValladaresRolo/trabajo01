@@ -1,10 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html,
 body {
-    padding-bottom: 20px;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+    
+    font-family: 'Lato', sans-serif;
 }
 
 .navbar {
     margin-bottom: 20px;
 }
+.logotop img{
+    width: 45px;
+    height: auto;
+}
+.btnip img{width: 10px;
+height: auto;}
+
+.btnip {margin-right: 2rem;}
+.btnip a:hover img{
+    transform: scale(1.2);
+    rotate: 45deg;
+}
+
+.bck-color{background-color: #000; color: #fff;}
+
+.productos{ background-color: #e6a161;
+margin: 3rem 0 4rem;
+}
+
+.blog{padding: 4%;}
+
+.featurette{background-color: #e6a161;}
+footer{
+    background-color: #6828cb;
+padding-left: 5%;
+padding-right: 5%;
+
+}
+footer h5{font-weight: 600; color: #e6a161;}
+ footer .text-body-secondary{ color: #fff !important }
+footer a:hover.text-body-secondary{color: #e6a161 !important}
 
 
 .bd-placeholder-img {
