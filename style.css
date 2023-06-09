@@ -64,7 +64,17 @@ header ul li {
 .productos {
     background-color: #e6a161;
     margin: 3rem 0 4rem;
+    padding: 40%;
+
+
 }
+.caja-productos{
+    margin-top: 5%;
+
+
+}
+
+.descripcion{font-size: 1.4rem;}
 
 .blog {
     padding: 4%;
@@ -73,6 +83,7 @@ header ul li {
 .featurette {
     background-color: #e6a161;
 }
+.agrad{ height: 100%;}
 
 footer {
     background-color: #6828cb;
