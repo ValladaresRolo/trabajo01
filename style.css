@@ -35,6 +35,12 @@ header ul li {
     width: 45px;
     height: auto;
 }
+.color-blanco{background-color: #000; color:#fff;}
+.imagenjumbo{max-height: 500px;}
+
+.btn-purpura{ background-color: #5a23c8; color:#fff}
+.btn-purpura:hover{ background-color: #fff; color:#5a23c8}
+
 
 .btnip img {
     width: 10px;
@@ -106,6 +112,7 @@ footer a:hover.text-body-secondary {
         margin-left: 0%;
         margin-right: 0%;
     }
+    .imagenjumbo{max-height: 350px;}
 
 
 }
