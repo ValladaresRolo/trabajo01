@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 html,
 body {
@@ -75,7 +76,9 @@ header ul li {
     color: #fff;
 }
 
-.form-control{border-color: #6929cc;}
+.form-control {
+    border-color: #6929cc;
+}
 
 .productos {
     background-color: #e6a161;
@@ -109,17 +112,20 @@ header ul li {
     background-color: #e6a161;
 
 }
-.featurette h2{
+
+.featurette h2 {
     font-size: 2.3rem;
     color: #6929cc;
     line-height: 2rem;
     font-weight: 500;
 }
 
-.featurette h3{font-size: 1.3rem;
-border-left: 4px solid #6929cc;
-padding-left: 3%;
-margin: 5% 0}
+.featurette h3 {
+    font-size: 1.3rem;
+    border-left: 4px solid #6929cc;
+    padding-left: 3%;
+    margin: 5% 0
+}
 
 
 .paddingBlog {
@@ -172,6 +178,46 @@ footer a:hover.text-body-secondary {
     color: #fff
 }
 
+.colorLetraPurpura {
+    color: #6929cc;
+}
+
+.badgeCustom {
+    padding: 10px;
+    font-weight: 300;
+    margin: 5px
+}
+
+.botonCompartir,
+.botonMeGusta {
+    padding: 15px 50px;
+}
+
+.botonMeGusta {
+    background-color: #6929cc;
+    color: #fff;
+}
+
+.botonMeGusta:hover {
+    background-color: gray;
+    color: #e6a161;
+}
+
+.botonCompartir {
+    background-color: #fff;
+    color: gray;
+}
+
+.botonCompartir:hover {
+    background-color: gray;
+    color: #e6a161;
+}
+
+.btnComGus {
+    margin-top: 100%;
+}
+
+
 .rss {
     width: 35px;
     height: auto;
@@ -222,7 +268,13 @@ a:hover .rss {
         border-top: 1px solid #fff
     }
 
-    .featurette h2{text-align: center;}
+    .featurette h2 {
+        text-align: center;
+    }
+
+    .btnComGus {
+        margin-top: 20%;
+    }
 
 
 
